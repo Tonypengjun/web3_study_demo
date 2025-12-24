@@ -1,0 +1,115 @@
+{
+  "contractName": "MyToken",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MyToken.sol\":\"MyToken\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MyToken.sol\":{\"keccak256\":\"0xde132a5cfdef1c525c807728bdc8f3fcddfff3b53de2b15575f8d8bac5e311b6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e6503fe045dd82d01e5848ec025d1876fb210dc24baab89ebf7b872678cb0217\",\"dweb:/ipfs/QmaYv56LKdBDdDfQhsXGensUUZAzewA91V2q2LUcK4wrXg\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea264697066735822122031a89bfb31550bde45cf035e144346ec1bb77c4e9c29fc64fed0c9e632d215f464736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea264697066735822122031a89bfb31550bde45cf035e144346ec1bb77c4e9c29fc64fed0c9e632d215f464736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:42:2:-:0;;;78:19;;;;;;;;;;57:42;;;;;;",
+  "deployedSourceMap": "57:42:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract MyToken {\n  constructor() {\n  }\n}\n",
+  "sourcePath": "/Users/pengjun/Desktop/project/ethereum/web_study/web3_study_demo/demo2/contracts/MyToken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MyToken.sol",
+    "exportedSymbols": {
+      "MyToken": [
+        50
+      ]
+    },
+    "id": 51,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 45,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyToken",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 50,
+        "linearizedBaseContracts": [
+          50
+        ],
+        "name": "MyToken",
+        "nameLocation": "66:7:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 48,
+              "nodeType": "Block",
+              "src": "92:5:2",
+              "statements": []
+            },
+            "id": 49,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 46,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "89:2:2"
+            },
+            "returnParameters": {
+              "id": 47,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "92:0:2"
+            },
+            "scope": 50,
+            "src": "78:19:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 51,
+        "src": "57:42:2",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:68:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2025-12-24T08:31:11.606Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
