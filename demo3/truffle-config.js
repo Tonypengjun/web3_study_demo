@@ -63,11 +63,14 @@ module.exports = {
     // You should run a client (like ganache, geth, or parity) in a separate terminal
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
-    
-    development: {
+    //
+
+   development: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 7545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
+     gas: 6721975,    // Make sure gas limit is sufficient
+     gasPrice: 20000000000
     },
     //
     // An additional network, but with some advanced options…
@@ -81,7 +84,7 @@ module.exports = {
     // },
     //
     // Useful for deploying to a public network.
-    // // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
+    // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     // goerli: {
     //   provider: () => new HDWalletProvider(MNEMONIC, `https://goerli.infura.io/v3/${PROJECT_ID}`),
     //   network_id: 5,       // Goerli's id
